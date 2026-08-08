@@ -43,7 +43,7 @@
 		<bytebuddy.version>1.14.2</bytebuddy.version>
 		<freemarker.version>2.3.32</freemarker.version>
 		<hikaricp.version>5.0.1</hikaricp.version>
-		<jackson.version>2.14.2</jackson.version>
+		<jackson.version>2.18.9</jackson.version>
 		<jakarta.annotation.version>2.1.1</jakarta.annotation.version>
 		<jakarta.servlet.version>6.0.0</jakarta.servlet.version>
 		<junit.version>5.9.2</junit.version>
