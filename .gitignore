@@ -169,3 +169,43 @@ Thumbs.db
 venv
 tmp
 .python
+
+# macOS AppleDouble / Finder metadata
+._*
+.DS_Store
+
+# --- C / C++ build artifacts ---
+# Compiled objects / archives
+*.o
+*.obj
+*.a
+*.lib
+*.i
+*.s
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Preprocessor/intermediate & assembler outputs are covered above (*.i, *.s)
+# Executable binaries with no extension built into source dirs (e.g. ./hello)
+# -- individual ones are removed from tracking; a broad rule below catches future ones
+cpp/bin/
+build/
+target/
+out/
+
+# Debug symbol bundles (macOS)
+*.dSYM/
+**/__MACOSX/
+
+# Compiled C/C++ executables (no extension) sitting next to their sources
+cstudy/*/*
+cstudy/*/*/*
+cpp/src/**/!(student.cpp|na.cpp|constructor_args.cpp|deconstror.cpp|deconstructor_init.cpp|sizeof.cpp|vla.cpp|Inheritance.cpp|object_array.cpp)
+
+# JetBrains / Editor
+.idea/
+.vscode/
+*.iml
