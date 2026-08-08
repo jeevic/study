@@ -201,9 +201,16 @@ out/
 **/__MACOSX/
 
 # Compiled C/C++ executables (no extension) sitting next to their sources
+# (git ignore patterns can't do "everything except these"; double-negate the sources)
 cstudy/*/*
 cstudy/*/*/*
-cpp/src/**/!(student.cpp|na.cpp|constructor_args.cpp|deconstror.cpp|deconstructor_init.cpp|sizeof.cpp|vla.cpp|Inheritance.cpp|object_array.cpp)
+cpp/src/*/*
+cpp/src/*/*/*
+!cpp/src/hello/*.cpp
+!cpp/src/namespace/*.cpp
+!cpp/src/oop/*.cpp
+!cpp/src/oop/extend/*.cpp
+!cpp/src/oop/extend/*/
 
 # JetBrains / Editor
 .idea/
