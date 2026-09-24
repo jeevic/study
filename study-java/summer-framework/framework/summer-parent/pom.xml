@@ -41,7 +41,7 @@
 		<java.version>21</java.version>
 
 		<bytebuddy.version>1.14.2</bytebuddy.version>
-		<freemarker.version>2.3.32</freemarker.version>
+		<freemarker.version>2.3.35</freemarker.version>
 		<hikaricp.version>5.0.1</hikaricp.version>
 		<jackson.version>2.14.2</jackson.version>
 		<jakarta.annotation.version>2.1.1</jakarta.annotation.version>
